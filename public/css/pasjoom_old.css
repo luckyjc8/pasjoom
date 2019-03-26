@@ -1,0 +1,185 @@
+@font-face {
+  font-family: Palatino;
+  src: url(../fonts/Palatino.ttf);
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(../fonts/HelveticaNeue.otf);
+}
+
+@font-face {
+  font-family: HelveticaNeueBold;
+  src: url(../fonts/HelveticaNeueBold.ttf);
+}
+
+body{
+	overflow-x:hidden;
+}
+
+.inline{
+	display:inline;
+}
+
+.footer{
+	width:100%;
+	height:100px;
+	margin-top:20px;
+	bottom:0px;
+	border-top : 1px solid #707070;
+}
+
+.copyright{
+	font-family : Palatino;
+	font-size: 22;
+	float:right;
+	margin-top:60px;
+}
+
+.foot-links{
+	float:left;
+	width:30%;
+	margin-top:10px;
+}
+
+.footer-ul{
+	list-style-type:none;
+}
+
+.footer-ul > li{
+	display:inline;
+	margin-right:40px;
+	font-family: HelveticaNeue;
+	font-size:24;
+	color:#707070;
+}
+
+.pasjoom-form-div{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:75px;
+	border: 1px solid #707070;
+	height:90vh;
+}
+
+.pasjoom-form{
+	margin:0px;
+	height:90vh;
+}
+
+.form-title{
+	font-family: Palatino;
+	font-size:38;
+	width:100%;
+	text-align: center; 
+}
+
+.left-form{
+	padding:0px;
+	height:90vh;
+	width:50%;
+	border-right:1px solid #707070;
+	margin:0px;
+	float:left;
+}
+
+.right-form{
+	padding:0px;
+	height:90vh;
+	width:50%;
+	margin:0px;
+	float:right;
+}
+
+.pasjoom-input{
+	margin-top:20px;
+	padding-left:10px;
+	width:80%;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:0.5px solid #707070;
+}
+
+.btn-pasjoom-form{
+	bottom:0px;
+	padding:0px;
+	width:100%;
+	margin:0px;
+	height:50px;
+	border:none;
+	border-top:1px solid #707070;
+	color:#707070;
+	font-family: Palatino;
+	font-size:16px;
+	background-color:white;
+	color:#707070;
+}
+
+.container-form{
+	height:76vh;
+}
+
+.top-mid-logo-div{
+	width:100%;
+	height:75px;
+}
+
+.top-mid-title{
+	font-family:Palatino;
+	font-size:24px;
+	display:inline;
+	margin-left:10px;
+	margin-top:10px;
+	vertical-align: middle;
+}
+
+.img-logo{
+	width:50px;
+}
+
+.terms{
+	margin-top:10px;
+	font-family: Palatino;
+	font-size:12px;
+	color:#707070;
+}
+
+.about-div{
+	position:absolute;
+	margin-top:160px;
+	margin-left:50px;
+	top:0px;
+	text-align: center;
+	font-family:Palatino;
+	font-size:20px;
+	color:#707070;
+}
+
+.about-img{
+	margin-left:15%;
+	width:200px;
+}
+
+.landing-caption{
+	text-align:left;
+	font-size:50px;
+	margin-top:5%;
+}
+
+.landing-subcaption{
+	text-align:left;
+	font-size:30px;
+	margin-top:10px;
+}
+
+.email-landing{
+	width: 200px;
+	margin-left:10%;
+	margin-top:40px;
+}
+
+.img-dummy{
+	margin-left:20px;
+}
